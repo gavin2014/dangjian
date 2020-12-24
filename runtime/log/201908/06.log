@@ -1,0 +1,2867 @@
+---------------------------------------------------------------
+[ 2019-08-06T13:04:10+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=cms.diyform&v=1565067850
+[运行时间：0.017283s] [吞吐率：57.86req/s] [内存消耗：704.39kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000469s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000559s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'token=4f56d8a8-7c29-4627-abb6-b98ebccb612c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'cms.diyform',
+  'v' => '1565067850',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000287s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000200s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/cms/diyform.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000553s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000572s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = 'e88235e4da7aeade3a779923a1fcbf0351a70d04' LIMIT 1 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000841s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000897s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:15+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.349596s] [吞吐率：2.86req/s] [内存消耗：980.01kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000521s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000667s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=4f56d8a8-7c29-4627-abb6-b98ebccb612c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000519s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000307s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000556s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = 'e88235e4da7aeade3a779923a1fcbf0351a70d04' LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001100s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.002731s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.001774s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.001823s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000941s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.001913s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:21+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/logout.html
+[运行时间：0.078944s] [吞吐率：12.67req/s] [内存消耗：689.65kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000525s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000620s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=4f56d8a8-7c29-4627-abb6-b98ebccb612c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000337s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000197s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->logout[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ BEHAVIOR ] Run Closure @user_logout_successed [ RunTime:0.000127s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000248s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = 'e88235e4da7aeade3a779923a1fcbf0351a70d04' LIMIT 1 [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000917s ]
+[ sql ] [ SQL ] DELETE FROM `dj_user_token`    WHERE  `token` = 'e88235e4da7aeade3a779923a1fcbf0351a70d04' [ RunTime:0.009839s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:23+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.131063s] [吞吐率：7.63req/s] [内存消耗：873.95kb] [文件加载：150]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000449s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000544s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/logout.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000523s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000230s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000567s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:27+08:00 ] 0.0.0.0 GET wisdang.cn/admin/index/login.html
+[运行时间：0.011082s] [吞吐率：90.24req/s] [内存消耗：514.77kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000332s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000417s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000276s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000259s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000146s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000296s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:04:27+08:00 ] 0.0.0.0 GET wisdang.cn/admin/index/index
+[运行时间：0.147414s] [吞吐率：6.78req/s] [内存消耗：1,045.74kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000340s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000428s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000281s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000179s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000086s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000210s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000546s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002543s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.001924s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `dj_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000858s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:27+08:00 ] 0.0.0.0 GET wisdang.cn/admin/dashboard?addtabs=1
+[运行时间：0.057514s] [吞吐率：17.39req/s] [内存消耗：893.05kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001004s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001098s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/index/index',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000319s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000477s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000200s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000289s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001887s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.001182s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001168s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002927s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `dj_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:27+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=index&v=1565067867
+[运行时间：0.016773s] [吞吐率：59.62req/s] [内存消耗：514.56kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000343s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000428s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/index/index',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1565067867',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000288s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000380s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000098s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000810s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:04:27+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=dashboard&v=1565067867
+[运行时间：0.017013s] [吞吐率：58.78req/s] [内存消耗：513.75kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000085s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000491s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000588s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/dashboard?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1565067867',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000881s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000252s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000145s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000715s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:04:35+08:00 ] 0.0.0.0 GET wisdang.cn/admin/general/config?addtabs=1
+[运行时间：0.098873s] [吞吐率：10.11req/s] [内存消耗：933.98kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000113s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001550s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001672s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/general/config?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000351s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000201s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/general/Config.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/general/config/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000183s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000388s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001546s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_config` [ RunTime:0.001070s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_config` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `dj_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000581s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:35+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=general.config&v=1565067875
+[运行时间：0.011254s] [吞吐率：88.86req/s] [内存消耗：513.76kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000361s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000449s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/general/config?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1565067875',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000306s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000217s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000086s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000503s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:04:50+08:00 ] 0.0.0.0 GET wisdang.cn/admin/addon?addtabs=1
+[运行时间：0.099717s] [吞吐率：10.03req/s] [内存消耗：926.27kb] [文件加载：154]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000093s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000574s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000676s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/addon?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000379s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000246s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Addon.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/addon/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000097s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000187s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.000996s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001170s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `dj_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.001575s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:50+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=addon&v=1565067890
+[运行时间：0.013690s] [吞吐率：73.05req/s] [内存消耗：531.16kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000375s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000547s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/addon?addtabs=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1565067890',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000298s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000193s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000233s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000936s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:04:58+08:00 ] 0.0.0.0 POST wisdang.cn/admin/addon/install
+[运行时间：0.415354s] [吞吐率：2.41req/s] [内存消耗：862.76kb] [文件加载：158]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000404s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000542s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'install',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://wisdang.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://wisdang.cn/admin/addon?addtabs=1',
+  'content-length' => '116',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'loginbg',
+  'force' => '0',
+  'uid' => '8959',
+  'token' => '13ce23fe-220f-4b20-8c17-1fb3255248d2',
+  'version' => '1.0.1',
+  'faversion' => '1.0.0.20190705_beta',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000327s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000250s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->install[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Addon.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.006377s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000264s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000865s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001928s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin_log` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] INSERT INTO `dj_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('常规管理 插件管理 安装' , '{\"name\":\"loginbg\",\"force\":\"0\",\"uid\":\"8959\",\"token\":\"13ce23fe-220f-4b20-8c17-1fb3255248d2\",\"version\":\"1.0.1\",\"faversion\":\"1.0.0.20190705_beta\"}' , '/admin/addon/install' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15' , '0.0.0.0' , 1565067898) [ RunTime:0.003876s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:04:59+08:00 ] 0.0.0.0 POST wisdang.cn/admin/index/index
+[运行时间：0.199246s] [吞吐率：5.02req/s] [内存消耗：968.12kb] [文件加载：156]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000773s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002395s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://wisdang.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://wisdang.cn/admin/addon?ref=addtabs',
+  'content-length' => '18',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+)
+[ info ] [ PARAM ] array (
+  'action' => 'refreshmenu',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000634s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000241s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.003900s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000396s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000997s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000977s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001330s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.004034s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `dj_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin_log` [ RunTime:0.000837s ]
+[ sql ] [ SQL ] INSERT INTO `dj_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"action\":\"refreshmenu\"}' , '/admin/index/index' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15' , '0.0.0.0' , 1565067899) [ RunTime:0.001503s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:05:01+08:00 ] 0.0.0.0 GET wisdang.cn/admin/addon/config?name=loginbg&dialog=1
+[运行时间：0.032546s] [吞吐率：30.73req/s] [内存消耗：897.25kb] [文件加载：146]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000357s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000453s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/addon?addtabs=1',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'loginbg',
+  'dialog' => '1',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000282s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000188s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->config[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Addon.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/addon/config.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'addon',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000089s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000168s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000616s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.000746s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001201s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:05:01+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=addon&v=1565067901
+[运行时间：0.016293s] [吞吐率：61.38req/s] [内存消耗：533.24kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000784s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001033s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/addon/config?name=loginbg&dialog=1',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1565067901',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000338s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000211s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000157s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000853s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:05:42+08:00 ] 0.0.0.0 POST wisdang.cn/admin/ajax/upload
+[运行时间：0.036768s] [吞吐率：27.20req/s] [内存消耗：684.25kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000626s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000800s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary40sIxJb8SszgBKkp',
+  'origin' => 'http://wisdang.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/addon/config?name=loginbg&dialog=1',
+  'content-length' => '43565',
+  'accept-language' => 'zh-cn',
+)
+[ info ] [ PARAM ] array (
+  'name' => '856aed67d30aa481d8713dc3f5bd69008e2e07a154b23-9iPiCl_fw658.jpeg',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000551s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000436s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->upload[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.007462s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000197s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_attachment` [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_attachment` WHERE  `url` = '/uploads/20190802ef71189d37c1c8e5fe03fc8d5e527c.jpeg' LIMIT 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] INSERT INTO `dj_attachment` (`admin_id` , `filesize` , `imagewidth` , `imageheight` , `imagetype` , `mimetype` , `url` , `uploadtime` , `storage` , `sha1` , `extparam` , `createtime` , `updatetime`) VALUES (1 , 43174 , '658' , '366' , 'jpeg' , 'image/jpeg' , '/uploads/20190802ef71189d37c1c8e5fe03fc8d5e527c.jpeg' , 1565067942 , 'local' , 'bf4bc186bae50fd730a00c240c2ee88f2e1c0c5e' , '{\"name\":\"856aed67d30aa481d8713dc3f5bd69008e2e07a154b23-9iPiCl_fw658.jpeg\"}' , 1565067942 , 1565067942) [ RunTime:0.001729s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin_log` [ RunTime:0.001504s ]
+[ sql ] [ SQL ] INSERT INTO `dj_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"name\":\"856aed67d30aa481d8713dc3f5bd69008e2e07a154b23-9iPiCl_fw658.jpeg\"}' , '/admin/ajax/upload' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15' , '0.0.0.0' , 1565067942) [ RunTime:0.002304s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:05:44+08:00 ] 0.0.0.0 POST wisdang.cn/admin/addon/config?name=loginbg&dialog=1
+[运行时间：0.049854s] [吞吐率：20.06req/s] [内存消耗：857.66kb] [文件加载：157]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000518s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000636s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => 'config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://wisdang.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://wisdang.cn/admin/addon/config?name=loginbg&dialog=1',
+  'content-length' => '91',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'loginbg',
+  'dialog' => '1',
+  'row' => 
+  array (
+    'mode' => 'fixed',
+    'image' => '/uploads/20190802ef71189d37c1c8e5fe03fc8d5e527c.jpeg',
+  ),
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000618s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000185s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->config[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Addon.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004215s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000197s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_group_access` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `dj_auth_group_access` `aga` LEFT JOIN `dj_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_auth_rule` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `dj_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin_log` [ RunTime:0.000919s ]
+[ sql ] [ SQL ] INSERT INTO `dj_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('常规管理 插件管理 配置' , '{\"name\":\"loginbg\",\"dialog\":\"1\",\"row\":{\"mode\":\"fixed\",\"image\":\"\\/uploads\\/20190802ef71189d37c1c8e5fe03fc8d5e527c.jpeg\"}}' , '/admin/addon/config?name=loginbg&dialog=1' , 1 , 'admin' , 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15' , '0.0.0.0' , 1565067944) [ RunTime:0.001679s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:05:48+08:00 ] 0.0.0.0 GET wisdang.cn/admin/index/logout
+[运行时间：0.060664s] [吞吐率：16.48req/s] [内存消耗：771.15kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000467s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000579s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/addon?ref=addtabs',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000332s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000207s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000107s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000178s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000661s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:05:49+08:00 ] 0.0.0.0 GET wisdang.cn/admin/index/login
+[运行时间：0.058310s] [吞吐率：17.15req/s] [内存消耗：541.22kb] [文件加载：138]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000496s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000608s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/admin/index/logout',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000532s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000245s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run \addons\loginbg\Loginbg @admin_login_init [ RunTime:0.000483s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000087s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000177s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:05:50+08:00 ] 0.0.0.0 GET wisdang.cn/admin/ajax/lang?callback=define&controllername=index&v=1565067949
+[运行时间：0.012029s] [吞吐率：83.13req/s] [内存消耗：514.40kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000377s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000468s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/admin/index/login',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1565067949',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000326s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000198s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000094s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000507s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:11+08:00 ] 0.0.0.0 GET wisdang.cn/index/cms.diyform/mypost.html
+[运行时间：0.016050s] [吞吐率：62.31req/s] [内存消耗：636.87kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000375s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000467s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cms.diyform',
+    2 => 'mypost',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000308s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000233s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:06:12+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/login.html
+[运行时间：0.062223s] [吞吐率：16.07req/s] [内存消耗：560.91kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000505s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000617s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000331s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000304s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/user/login.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'url',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000181s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:13+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=user&v=1565067972
+[运行时间：0.012527s] [吞吐率：79.83req/s] [内存消耗：505.28kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000381s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000472s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1565067972',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000311s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000177s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000481s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:24+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/register.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html
+[运行时间：0.060879s] [吞吐率：16.43req/s] [内存消耗：553.03kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000097s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001013s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001203s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000463s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000248s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->register[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/user/register.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'url',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000191s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:24+08:00 ] 0.0.0.0 GET wisdang.cn/captcha.html
+[运行时间：0.054786s] [吞吐率：18.25req/s] [内存消耗：374.25kb] [文件加载：116]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000435s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000632s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => 'image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/register.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000201s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:24+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=user&v=1565067984
+[运行时间：0.028329s] [吞吐率：35.30req/s] [内存消耗：505.88kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000872s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001030s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/register.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1565067984',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000885s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000199s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000494s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:25+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/login.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html
+[运行时间：0.056995s] [吞吐率：17.55req/s] [内存消耗：562.01kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000526s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000720s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/register.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000341s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000208s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/user/login.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'url',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000166s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:25+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=user&v=1565067985
+[运行时间：0.010742s] [吞吐率：93.09req/s] [内存消耗：505.84kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000052s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000349s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000443s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/login.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1565067985',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000310s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000178s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000545s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:33+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.152189s] [吞吐率：6.57req/s] [内存消耗：876.17kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000048s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000342s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000433s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/login.html?url=http%3A%2F%2Fwisdang.cn%2Findex%2Fcms.diyform%2Fmypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000366s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.000911s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000588s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:06:56+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/login.html
+[运行时间：0.023823s] [吞吐率：41.98req/s] [内存消耗：561.36kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000375s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000530s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000292s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000200s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/user/login.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'url',
+  6 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000316s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:06:56+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=user&v=1565068016
+[运行时间：0.013753s] [吞吐率：72.71req/s] [内存消耗：505.28kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000161s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000428s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000524s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1565068016',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000383s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000232s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000540s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-08-06T13:07:03+08:00 ] 0.0.0.0 POST wisdang.cn/index/user/login.html
+[运行时间：0.340626s] [吞吐率：2.94req/s] [内存消耗：684.32kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000085s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000668s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000833s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'origin' => 'http://wisdang.cn',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'connection' => 'keep-alive',
+  'referer' => 'http://wisdang.cn/index/user/login.html',
+  'content-length' => '124',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+)
+[ info ] [ PARAM ] array (
+  'url' => 'http://wisdang.cn/',
+  '__token__' => '34c4add7cb06f5ecd1e44d9541cb5f19',
+  'account' => '1718130505',
+  'password' => 'chenyun666',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000542s ]
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000398s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->login[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run Closure @user_login_successed [ RunTime:0.000552s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000192s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001593s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `username` = '1718130505' LIMIT 1 [ RunTime:0.002504s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] UPDATE `dj_user`  SET `prevtime`=1565029136,`logintime`=1565068023,`updatetime`=1565068023  WHERE  `id` = 2 [ RunTime:0.005260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.001082s ]
+[ sql ] [ SQL ] INSERT INTO `dj_user_token` (`token` , `user_id` , `createtime` , `expiretime`) VALUES ('200e3d0a6392fe53e9a858027ad4744055e2d1a6' , 2 , 1565068023 , 1567660023) [ RunTime:0.000758s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:04+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.160580s] [吞吐率：6.23req/s] [内存消耗：982.05kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000083s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000574s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000842s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/login.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000367s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000290s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000804s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:07+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/index.html
+[运行时间：0.053046s] [吞吐率：18.85req/s] [内存消耗：732.34kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.001236s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001421s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000443s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000200s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->index[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000256s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000783s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000824s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:07+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/home.html
+[运行时间：0.036097s] [吞吐率：27.70req/s] [内存消耗：767.94kb] [文件加载：145]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000407s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000503s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'home',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000291s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000195s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->home[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/user/home.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'title',
+  6 => 'school_name',
+  7 => 'group_name',
+) ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @user_sidenav_after [ RunTime:0.003519s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/signin/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+  1 => 'controllername',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\signin\Signin @user_sidenav_after [ RunTime:0.001893s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000561s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT `school_id`,`group_id` FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_wis_school` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_wis_school` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_group` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_group` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:07+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=user&v=1565068027
+[运行时间：0.019542s] [吞吐率：51.17req/s] [内存消耗：717.95kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000696s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000930s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/user/home.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'user',
+  'v' => '1565068027',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000315s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000194s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000478s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000800s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:09+08:00 ] 0.0.0.0 GET wisdang.cn/index/cms.diyform/mypost.html
+[运行时间：0.031927s] [吞吐率：31.32req/s] [内存消耗：734.30kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000050s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000477s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000571s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cms.diyform',
+    2 => 'mypost',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/home.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000292s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000195s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/cms/diyform.php
+[ info ] [ RUN ] app\index\controller\cms\Diyform->mypost[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/cms/Diyform.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/cms/diyform/mypost.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'archivesList',
+) ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @user_sidenav_after [ RunTime:0.001851s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/signin/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+  1 => 'controllername',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\signin\Signin @user_sidenav_after [ RunTime:0.001356s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000200s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001011s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_wis_study_record` [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_wis_study_record` WHERE  `user_id` = 2 ORDER BY `id` DESC [ RunTime:0.000494s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT `title` FROM `dj_cms_archives` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000707s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:10+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=cms.diyform&v=1565068029
+[运行时间：0.018692s] [吞吐率：53.50req/s] [内存消耗：706.54kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000353s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000449s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'cms.diyform',
+  'v' => '1565068029',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000335s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000191s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/cms/diyform.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000430s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000987s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000869s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:32+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.170573s] [吞吐率：5.86req/s] [内存消耗：982.06kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000724s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000874s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000755s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000244s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000777s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.000886s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:37+08:00 ] 0.0.0.0 GET wisdang.cn/cms/c/smarthome.html
+[运行时间：0.295869s] [吞吐率：3.38req/s] [内存消耗：1,067.77kb] [文件加载：160]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000531s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000647s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'channel',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'diyname' => 'smarthome',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000387s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/channel_news.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+  4 => '__FILTERLIST__',
+  5 => '__ORDERLIST__',
+  6 => '__PAGELIST__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000227s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `diyname` = 'smarthome' LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_fields` [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_fields` WHERE  `model_id` = 5  AND `status` = 'normal' [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_notify` [ RunTime:0.000981s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal' ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dj_cms_archives` `a` LEFT JOIN `dj_cms_notify` `n` ON `a`.`id`=`n`.`id` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (32,29,28,26,10) LIMIT 1 [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT `a`.*,`n`.`admin_id`,`n`.`activity_time`,`n`.`activity_place`,`n`.`activity_person`,`n`.`activity_files`,`n`.`progress_state` FROM `dj_cms_archives` `a` LEFT JOIN `dj_cms_notify` `n` ON `a`.`id`=`n`.`id` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (32,29,28,26,10) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,10 [ RunTime:0.001971s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.001323s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`type`,`parent_id`,`diyname`,`outlink` FROM `dj_cms_channel` WHERE  `status` = 'normal' ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.001152s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'newsfocus' ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'newsfocus' ORDER BY `id` DESC LIMIT 2 [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'newsfocus' ORDER BY `id` DESC LIMIT 2,4 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (10) )) ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (32) ORDER BY `createtime` DESC LIMIT 0,1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (32) ORDER BY `createtime` DESC LIMIT 1,5 [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (29) ORDER BY `createtime` DESC LIMIT 0,1 [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (29) ORDER BY `createtime` DESC LIMIT 1,5 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (28) ORDER BY `createtime` DESC LIMIT 0,1 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (28) ORDER BY `createtime` DESC LIMIT 1,5 [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (26) ORDER BY `createtime` DESC LIMIT 0,1 [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (26) [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `channel_id` IN (26) ORDER BY `createtime` DESC LIMIT 1,5 [ RunTime:0.001264s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:38+08:00 ] 0.0.0.0 GET wisdang.cn/cms/a/1.html
+[运行时间：0.171668s] [吞吐率：5.83req/s] [内存消耗：1,043.41kb] [文件加载：161]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000331s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000421s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'archives',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/cms/c/smarthome.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'diyname' => '1',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000343s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/show_notify.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+  4 => '__ARCHIVES__',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000237s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.001370s ]
+[ sql ] [ SQL ] SELECT `haveread_list` FROM `dj_cms_archives` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.001428s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` = 26 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_notify` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_notify` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_fields` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`type`,`content` FROM `dj_cms_fields` WHERE  `model_id` = 5  AND `status` = 'normal' [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_admin` [ RunTime:0.001161s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] UPDATE `dj_cms_archives`  SET `views`=`views`+1  WHERE  `id` = 1 [ RunTime:0.001821s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`type`,`parent_id`,`diyname`,`outlink` FROM `dj_cms_channel` WHERE  `status` = 'normal' ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `id` < 1  AND `status` = 'normal'  AND `channel_id` IN (26) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `id` > 1  AND `status` = 'normal'  AND `channel_id` IN (26) ORDER BY `id` ASC LIMIT 1 [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_comment` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `dj_cms_comment` WHERE  `status` = 'normal'  AND `type` = 'archives'  AND `aid` = 1 LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_comment` WHERE  `status` = 'normal'  AND `type` = 'archives'  AND `aid` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `id`,`nickname`,`avatar`,`email` FROM `dj_user` WHERE  `id` IN (2) [ RunTime:0.000638s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:40+08:00 ] 0.0.0.0 GET wisdang.cn/cms/d/archives?archives_id=1&admin_id=1
+[运行时间：0.028890s] [吞吐率：34.61req/s] [内存消耗：727.75kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000057s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000412s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000515s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'diyform',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/cms/a/1.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'archives_id' => '1',
+  'admin_id' => '1',
+  'diyname' => 'archives',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000629s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000290s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.001384s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_diyform` [ RunTime:0.000842s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_diyform` WHERE  `diyname` = 'archives' LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_wis_study_record` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_wis_study_record` WHERE  `archives_id` = 1  AND `user_id` = 2 LIMIT 1 [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:40+08:00 ] 0.0.0.0 GET wisdang.cn/index/cms.diyform/mypost.html
+[运行时间：0.035989s] [吞吐率：27.79req/s] [内存消耗：734.30kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000807s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000910s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'cms.diyform',
+    2 => 'mypost',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/cms/a/1.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000285s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000191s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/cms/diyform.php
+[ info ] [ RUN ] app\index\controller\cms\Diyform->mypost[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/cms/Diyform.php ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/view/cms/diyform/mypost.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'archivesList',
+) ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @user_sidenav_after [ RunTime:0.002695s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/signin/view/hook/user_sidenav_after.html [ array (
+  0 => 'actionname',
+  1 => 'controllername',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\signin\Signin @user_sidenav_after [ RunTime:0.002298s ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000179s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000633s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_wis_study_record` [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_wis_study_record` WHERE  `user_id` = 2 ORDER BY `id` DESC [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT `title` FROM `dj_cms_archives` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000496s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:07:40+08:00 ] 0.0.0.0 GET wisdang.cn/index/ajax/lang?callback=define&controllername=cms.diyform&v=1565068060
+[运行时间：0.028255s] [吞吐率：35.39req/s] [内存消耗：706.54kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000629s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000587s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000686s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'accept' => '*/*',
+  'connection' => 'keep-alive',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'accept-language' => 'zh-cn',
+  'referer' => 'http://wisdang.cn/index/cms.diyform/mypost.html',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'cms.diyform',
+  'v' => '1565068060',
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000467s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000375s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\index\controller\Ajax->lang[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/Ajax.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/cms/diyform.php
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000579s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001193s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000853s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:09:55+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.163518s] [吞吐率：6.12req/s] [内存消耗：982.04kb] [文件加载：155]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000055s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000421s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000514s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/cms/a/1.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000616s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000255s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.001363s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:10:19+08:00 ] 0.0.0.0 GET wisdang.cn/index/user/logout.html
+[运行时间：0.053614s] [吞吐率：18.65req/s] [内存消耗：691.70kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000056s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000398s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000489s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'token=894daf83-012f-410b-a839-64d1f929909c; uid=2; PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000319s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\qcloudsms\Qcloudsms @config_init [ RunTime:0.000194s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/index/lang/zh-cn/user.php
+[ info ] [ RUN ] app\index\controller\User->logout[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/application/index/controller/User.php ]
+[ info ] [ BEHAVIOR ] Run Closure @user_logout_successed [ RunTime:0.000116s ]
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'userTypeList',
+  4 => '__CHANNEL__',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000220s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user_token` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user_token` WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' LIMIT 1 [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_user` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000830s ]
+[ sql ] [ SQL ] DELETE FROM `dj_user_token`    WHERE  `token` = '200e3d0a6392fe53e9a858027ad4744055e2d1a6' [ RunTime:0.001696s ]
+---------------------------------------------------------------
+[ 2019-08-06T13:10:20+08:00 ] 0.0.0.0 GET wisdang.cn/
+[运行时间：0.151953s] [吞吐率：6.58req/s] [内存消耗：876.00kb] [文件加载：151]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000049s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @app_init [ RunTime:0.000598s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000697s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'cms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wisdang.cn',
+  'cookie' => 'PHPSESSID=5d0ae401d1102540500f2b1179c45758; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1564217791,1564367822,1564742576,1564792479',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15',
+  'referer' => 'http://wisdang.cn/index/user/logout.html',
+  'accept-language' => 'zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.000380s ]
+[ info ] [ LANG ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/lang/zh-cn.php
+[ info ] [ VIEW ] /Users/chenyun/Documents/项目/信息工程学院-智慧党建系统/addons/cms/view/default/index.html [ array (
+  0 => 'config',
+  1 => 'user',
+  2 => 'site',
+  3 => '__CHANNEL__',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\cms\Cms @response_send [ RunTime:0.000275s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=wisdang_cn;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_block` [ RunTime:0.000899s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'bannerad'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad1'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'sidebarad2'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'partner'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `name` = 'friendlink'  AND `status` = 'normal' LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_channel` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND `parent_id` = 0  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT `parent_id` FROM `dj_cms_channel` WHERE  `parent_id` > 0  AND `status` = 'normal' [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `outlink`,`parent_id` FROM `dj_cms_channel` WHERE  `type` = 'link'  AND `status` = 'normal' [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (30) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (1) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000829s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND ( `id`  IN (( SELECT `id` FROM `dj_cms_channel` WHERE  `parent_id` IN (2) )) )  AND (  1=isnav ) ORDER BY `weigh` DESC LIMIT 10 [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_block` WHERE  `status` = 'normal'  AND `name` = 'indexfocus' ORDER BY `id` DESC LIMIT 5 [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_channel` WHERE  `status` = 'normal'  AND (  'list'=type ) ORDER BY `weigh` DESC LIMIT 6 [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_archives` [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `weigh` DESC,`id` DESC LIMIT 0,5 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL ) ORDER BY `id` DESC LIMIT 6 [ RunTime:0.000709s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`diyname`,`items` FROM `dj_cms_channel` WHERE  `id` IN (6,26) [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_tags` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_tags` ORDER BY rand() LIMIT 30 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (1)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_archives` WHERE  `status` = 'normal'  AND ( `deletetime` IS NULL )  AND `model_id` IN (3)  AND (  (FIND_IN_SET('recommend', flag)) ) ORDER BY `id` ASC LIMIT 10 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `dj_cms_model` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `dj_cms_model` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000549s ]

@@ -1,0 +1,4 @@
+<?php
+//-00000000001
+ exit();?>
+a:2:{i:0;a:11:{s:2:"id";i:21;s:4:"type";s:9:"焦点图";s:4:"name";s:9:"newsfocus";s:5:"title";s:9:"十九大";s:5:"image";s:88:"/uploads/953a1f7ac80f97275c25f4f00ab61632bc36f1c33f813-ZD7yIk_fw658PUoKV6Iwc3AJptzW.jpeg";s:3:"url";s:1:"/";s:7:"content";s:0:"";s:5:"weigh";i:21;s:10:"createtime";i:1553608086;s:10:"updatetime";i:1565056432;s:6:"status";s:6:"normal";}i:1;a:11:{s:2:"id";i:20;s:4:"type";s:9:"焦点图";s:4:"name";s:9:"newsfocus";s:5:"title";s:15:"我的中国梦";s:5:"image";s:88:"/uploads/bcc251d2aedf42abc8e3b3863da7325efebdfaca814f4-j1BmLC_fw658zklv9BXFwVpCEcTd.jpeg";s:3:"url";s:1:"/";s:7:"content";s:0:"";s:5:"weigh";i:20;s:10:"createtime";i:1553608049;s:10:"updatetime";i:1565056418;s:6:"status";s:6:"normal";}}

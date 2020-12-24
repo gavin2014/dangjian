@@ -1,0 +1,139 @@
+{layout name="common/layout" /}
+
+<div class="container" id="content-container">
+
+    <div class="row">
+
+        <main class="col-md-12 col-lg-12 col-xs-12">
+            <div class="panel panel-default article-content">
+                <div class="panel-heading">
+                    <ol class="breadcrumb">
+                        <!-- S 面包屑导航 -->
+                        {cms:breadcrumb id="item"}
+                        <li><a href="{$item.url}">{$item.name}</a></li>
+                        {/cms:breadcrumb}
+                        <!-- E 面包屑导航 -->
+                    </ol>
+                </div>
+                <div class="panel-body">
+                    <div class="article-metas">
+                        <h1 class="metas-title" {if $__ARCHIVES__.style}style="{$__ARCHIVES__.style_text}"{/if}>
+                            {cms:archives name="title" /}
+                        </h1>
+                        <!-- S 统计信息 -->
+                        <div class="metas-body">
+                            <span class="views-num">
+                                <i class="fa fa-eye"></i> {cms:archives name="views" /} 阅读
+                            </span>
+                            <span class="comment-num">
+                                <i class="fa fa-comments"></i> {cms:archives name="comments" /} 评论
+                            </span>
+                            <span class="like-num">
+                                <i class="fa fa-thumbs-o-up"></i>
+                                <span class="js-like-num"> {cms:archives name="likes" /} 点赞
+                                </span>
+                            </span>
+                        </div>
+                        <!-- E 统计信息 -->
+                    </div>
+                    <div class="entry-meta">
+                        <ul style="padding: initial">
+                            <!-- S 归档 -->
+
+                            <li ><span class="glyphicon glyphicon-time"></span> {:__('Activity_time')}：{cms:archives name="activity_time" /}</li>
+                            <li><span class="glyphicon glyphicon-map-marker"></span>{:__('Activity_place')}：{cms:archives name="activity_place" /}</li>
+                            <li><span class="glyphicon glyphicon-user"></span>{:__('Activity_person')}：{cms:archives name="activity_person" /}</li>
+
+                            <?php
+                               $urls= $__ARCHIVES__['activity_files'];
+                               $urls=explode(',',$urls);
+                           ?>
+                            {if   $__ARCHIVES__['activity_files'] !=''}
+                            {volist name="urls" id="vo" offset="0" length="3" mod="2" empty="这里没有数据" key ='s'}
+                              <?php
+                                  $mysuffix=explode('.',$vo)[1];
+                             ?>
+                            {if $mysuffix =="doc" or $mysuffix =="docx" or $mysuffix =="xlsx" or $mysuffix =="ppt" }
+                            　 <li><span class="glyphicon glyphicon-download-alt"></span> {:__('Activity_files').$s}：<a href="https://view.officeapps.live.com/op/view.aspx?src=http://{$_SERVER['HTTP_HOST'].$vo}">点击在线预览</a></li>
+                            {else/}
+                            　 <li><span class="glyphicon glyphicon-download-alt"></span> {:__('Activity_files').$s}：<a href="{$vo}">点击在线预览</a></li>
+                            {/if} 　　
+                            {/volist}
+                            {/if}
+                        </ul>
+
+
+
+                            <!-- S 归档 -->
+                        </ul>
+                    </div>
+
+
+
+                    <div class="article-text">
+                        <!-- S 正文 -->
+                        <p>
+                            {cms:archives name="content" /}
+                        </p>
+                        <!-- E 正文 -->
+                    </div>
+
+
+                    <!-- E 付费阅读 -->
+
+                    <div class="article-donate">
+                        <a href="javascript:" class="btn btn-outline-danger w-75" data-action="vote" data-type="like" data-id="{cms:archives name='id' /}" data-tag="archives"><i class="fa fa-thumbs-up"></i> 点赞(<span>{cms:archives name='likes' /}</span>)</a>
+                    </div>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <!-- S 归档 -->
+                            <li>{:__('Article category')}：<a href="{cms:channel name='url' /}">{cms:channel name="name" /}</a></li>
+                            {if $__ARCHIVES__.tagslist}
+                            <li>{:__('Article tags')}：{volist name="$__ARCHIVES__.tagslist" id="tag"}<a href="{$tag.url}" class="tag" rel="tag">{$tag.name}</a>{/volist}</li>
+                            {/if}
+                            <li>{:__('Article views')}：<span>{cms:archives name="views" /}</span> 次浏览</li>
+                            <li>{:__('Post date')}：{cms:archives name="publishtime|datetime" /}</li>
+                            <li>{:__('Article url')}：<a href="{cms:archives name='fullurl' /}">{cms:archives name="fullurl" /}</a></li>
+                            <li>  {:__('Read_list')}：{cms:archives name="read_list" /}</li>
+                            <!-- S 归档 -->
+                        </ul>
+
+                        <ul class="article-prevnext">
+                            <!-- S 上一篇下一篇 -->
+                            {cms:prevnext id="prev" type="prev" archives="__ARCHIVES__.id" channel="__CHANNEL__.id"}
+                            <li>
+                                <span>{:__('Prev')} &gt;</span>
+                                <a href="{$prev.url}">{$prev.title}</a>
+                            </li>
+                            {/cms:prevnext}
+
+                            {cms:prevnext id="next" type="next" archives="__ARCHIVES__.id" channel="__CHANNEL__.id"}
+                            <li>
+                                <span>{:__('Next')} &gt;</span>
+                                <a href="{$next.url}">{$next.title}</a>
+                            </li>
+                            {/cms:prevnext}
+                            <!-- E 上一篇下一篇 -->
+                        </ul>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="panel panel-default" id="comments">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{:__('Comment list')}
+                        <small>共有 <span>{cms:archives name="comments" /}</span> 条评论</small>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    {include file="common/comment" type="archives" aid="__ARCHIVES__.id"}
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+</div>

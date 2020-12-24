@@ -1,0 +1,64 @@
+<style>
+    .panel-post {
+        position: relative;
+    }
+
+    .btn-post {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+
+    .img-border {
+        border-radius: 3px;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    }
+</style>
+<div class="container mt-20">
+    <div id="content-container" class="container">
+        <div class="row">
+            <div class="col-md-3">
+                {include file="common/sidenav" /}
+            </div>
+            <div class="col-md-9">
+                <div class="panel panel-default panel-user">
+                    <div class="panel-body">
+                        <div class="page-header panel-post">
+                            <h2>{$row.title}</h2>
+                        </div>
+
+                        <form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+                            <input type="hidden" name="row[id]" value="{$row.id}">
+                            <input type="hidden" name="row[admin_id]" value="{$row.admin_id}">
+                            <input type="hidden" name="row[archives_id]" value="{$row.archives_id}">
+                            <div class="form-group">
+                                <label class="control-label col-xs-12 col-sm-2">{:__('心得体会')}:</label>
+                                <div class="col-xs-12 col-sm-8">
+
+                                    <div class="input-group">
+                                        <input id="c-experience_files" class="form-control hidden " size="50" name="row[experience_files]" type="text" value="{$row.experience_files|htmlentities}">
+                                        <div class="input-group-addon no-border no-padding">
+                                            <span><button type="button" id="plupload-experience_files" class="btn btn-danger plupload" data-input-id="c-experience_files" data-multiple="true" data-preview-id="p-experience_files"><i class="fa fa-upload"></i> {:__('点击选择文件')}</button></span>
+                                        </div>
+                                        <span class="msg-box n-right" for="c-experience_files"></span>
+                                    </div>
+
+                                    <ul class="row list-inline plupload-preview" id="p-experience_files">
+                                    </ul>
+                                    <label class="text-danger">{$row.filename}</label>
+                                </div>
+                            </div>
+                            <div class="form-group layer-footer">
+                                <label class="control-label col-xs-12 col-sm-2"></label>
+                                <div class="col-xs-12 col-sm-8">
+                                    <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

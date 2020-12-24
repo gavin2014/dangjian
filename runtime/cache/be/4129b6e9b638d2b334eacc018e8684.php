@@ -1,0 +1,4 @@
+<?php
+//-00000000001
+ exit();?>
+a:1:{i:0;a:29:{s:2:"id";i:2;s:7:"user_id";s:0:"";s:10:"channel_id";i:6;s:8:"model_id";i:1;s:10:"special_id";i:0;s:5:"title";s:12:"风采展示";s:5:"style";s:0:"";s:4:"flag";s:0:"";s:5:"image";s:0:"";s:8:"keywords";s:4:"test";s:11:"description";s:600:"如果是春天，阳光洒在门前云雀吐出的花朵，从树梢开到红色屋顶推开屋门，我们走进阳光里。和草木一样发芽，拔节；和鸟儿一样，草木间吟唱我采摘一些红樱桃、绿苣和蘑菇你砍来枯木做柴我们的红木屋就笼起人间烟火你捧读诗书，我素手调羹可现在是冬天，大雪封门你说我们需要更旺的炉火和明天的早餐起风了，满天漫过云端的想念，摇落一千种关于月亮的遐想。把一首诗藏在蒲公英的唇边。藏进一粒飘飞的种子，一朵欢笑一缕微风春天来了，";s:4:"tags";s:4:"test";s:5:"weigh";i:0;s:5:"views";i:9;s:8:"comments";i:0;s:5:"likes";i:0;s:8:"dislikes";i:0;s:7:"diyname";s:0:"";s:10:"createtime";i:1565066894;s:10:"updatetime";i:1565066894;s:11:"publishtime";i:1565066835;s:10:"deletetime";N;s:4:"memo";s:0:"";s:6:"status";s:6:"normal";s:8:"admin_id";i:1;s:13:"haveread_list";s:6:"陈云";s:9:"user_type";s:1:"0";s:14:"is_user_record";s:1:"0";s:13:"activity_type";s:1:"1";}}

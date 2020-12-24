@@ -1,0 +1,234 @@
+{layout name="common/layout" /}
+
+<style>
+    .swiper-container {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .swiper-slide {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .gallery-top {
+        height: 80%;
+        width: 100%;
+    }
+
+    .gallery-thumbs {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+
+    .gallery-thumbs .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+    }
+    .gallery-thumbs .swiper-slide-thumb-active {
+        opacity: 1;
+    }
+
+    .article-image {
+        height: 820px;
+    }
+
+    @media (max-width: 767px) {
+
+        .article-image {
+            height: 400px;
+        }
+    }
+
+</style>
+
+<div class="container" id="content-container">
+
+    <div class="row">
+
+        <main class="col-xs-12">
+
+            <div class="panel panel-default article-content">
+                <div class="panel-heading">
+                    <ol class="breadcrumb">
+                        <!-- S 面包屑导航 -->
+                        {cms:breadcrumb id="item"}
+                        <li><a href="{$item.url}">{$item.name}</a></li>
+                        {/cms:breadcrumb}
+                        <!-- E 面包屑导航 -->
+                    </ol>
+                </div>
+                <div class="panel-body">
+                    <div class="article-metas">
+                        <h1 class="metas-title" {if $__ARCHIVES__.style}style="{$__ARCHIVES__.style_text}"{/if}>
+                            {cms:archives name="title" /}
+                        </h1>
+                        <!-- S 统计信息 -->
+                        <div class="metas-body">
+                            <span class="views-num">
+                                <i class="fa fa-eye"></i> {cms:archives name="views" /} 阅读
+                            </span>
+                            <span class="comment-num">
+                                <i class="fa fa-comments"></i> {cms:archives name="comments" /} 评论
+                            </span>
+                            <span class="like-num">
+                                <i class="fa fa-thumbs-o-up"></i>
+                                <span class="js-like-num"> {cms:archives name="likes" /} 点赞
+                                </span>
+                            </span>
+                        </div>
+                        <!-- E 统计信息 -->
+                    </div>
+
+
+                    <?php
+                               $urls= $__ARCHIVES__['study_files'];
+                               $urls=explode(',',$urls);
+                      ?>
+
+                    {if $__ARCHIVES__['user_type'] == $Think.session.user_type }
+                        {if   $__ARCHIVES__['study_files'] !=''}
+                        {volist name="urls" id="vo" offset="0" length="3" mod="2" empty="这里没有数据" key ='s'}
+                        <?php
+                              $mysuffix=explode('.',$vo)[1];
+                          ?>
+                        {if $mysuffix =="doc" or $mysuffix =="docx" or $mysuffix =="xlsx" or $mysuffix =="ppt" }
+                        　 <li><span class="glyphicon glyphicon-download-alt"></span> {:__('Activity_files').$s}：<a href="https://view.officeapps.live.com/op/view.aspx?src=http://{$_SERVER['HTTP_HOST'].$vo}">点击在线预览</a></li>
+                        {else/}
+                        　 <li><span class="glyphicon glyphicon-download-alt"></span> {:__('Activity_files').$s}：<a href="{$vo}">点击在线预览</a></li>
+                        {/if} 　　
+                        {/volist}
+                        {/if}
+                    <div class="article-text">
+                        <!-- S 正文 -->
+                        <p>
+                            {cms:archives name="content" /}
+                        </p>
+                        <!-- E 正文 -->
+                    </div>
+                    {/if}
+
+                    {if $__ARCHIVES__['user_type'] != $Think.session.user_type}
+
+                    <!-- S 付费阅读 -->
+
+                    <div class="text-center text-red">
+                        您没有权限查看此课程哟
+                    </div>
+                  {/if}
+                    <!-- E 付费阅读 -->
+
+                    <div class="article-donate">
+                        <a href="javascript:" class="btn btn-info btn-like btn-lg" data-action="vote" data-type="like" data-id="{cms:archives name='id' /}" data-tag="archives"><i class="fa fa-thumbs-up"></i> 点赞(<span>{cms:archives name='likes' /}</span>)</a>
+                    </div>
+
+                    <div class="entry-meta">
+                        <ul>
+                            <!-- S 归档 -->
+                            <li>{:__('Article category')}：<a href="{cms:channel name='url' /}">{cms:channel name="name" /} </a> </li>
+                            {if $__ARCHIVES__.tagslist}
+                            <li>{:__('Article tags')}：{volist name="$__ARCHIVES__.tagslist" id="tag"}<a href="{$tag.url}" class="tag" rel="tag">{$tag.name}</a>{/volist}</li>
+                            {/if}
+                            <li>{:__('Article views')}：<span>{cms:archives name="views" /}</span> 次浏览</li>
+                            <li>{:__('Post date')}：{cms:archives name="publishtime|datetime" /}</li>
+                            <li>{:__('Article url')}：<a href="{cms:archives name='fullurl' /}">{cms:archives name="fullurl" /}</a></li>
+                            <!-- S 归档 -->
+                        </ul>
+
+                        <ul class="article-prevnext">
+                            <!-- S 上一篇下一篇 -->
+                            {cms:prevnext id="prev" type="prev" archives="__ARCHIVES__.id" channel="__CHANNEL__.id"}
+                            <li>
+                                <span>{:__('Prev')} &gt;</span>
+                                <a href="{$prev.url}">{$prev.title}</a>
+                            </li>
+                            {/cms:prevnext}
+
+                            {cms:prevnext id="next" type="next" archives="__ARCHIVES__.id" channel="__CHANNEL__.id"}
+                            <li>
+                                <span>{:__('Next')} &gt;</span>
+                                <a href="{$next.url}">{$next.title}</a>
+                            </li>
+                            {/cms:prevnext}
+                            <!-- E 上一篇下一篇 -->
+                        </ul>
+                    </div>
+
+                    <div class="article-action-btn">
+                        <div class="pull-left">
+                            <!-- S 收藏 -->
+                            <a class="product-favorite addbookbark mr-2" href="javascript:;">
+                                <i class="fa fa-heart"></i> {:__('Favourite')}
+                            </a>
+                            <!-- E 收藏 -->
+                            <!-- S 分享 -->
+                            <span class="bdsharebuttonbox share-box bdshare-button-style0-16">
+                            <a class="bds_more share-box-a" data-cmd="more">
+                                <i class="fa fa-share"></i> {:__('Share')}
+                            </a>
+                        </span>
+                            <!-- E 分享 -->
+                        </div>
+                        <div class="pull-right">
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+<!--                    <div class="related-article">-->
+<!--                        <div class="row">-->
+<!--                            &lt;!&ndash; S 相关文章 &ndash;&gt;-->
+<!--                            {cms:arclist id="relate" tags="__ARCHIVES__.tags" model="__ARCHIVES__.model_id" row="4"}-->
+<!--                            <div class="col-sm-3 col-xs-6">-->
+<!--                                <a href="{$relate.url}" class="img-zoom">-->
+<!--                                    <div class="embed-responsive embed-responsive-4by3">-->
+<!--                                        <img src="{$relate.image}" alt="{$relate.title}" class="embed-responsive-item">-->
+<!--                                    </div>-->
+<!--                                </a>-->
+<!--                                <h5>{$relate.title}</h5>-->
+<!--                            </div>-->
+<!--                            {/cms:arclist}-->
+<!--                            &lt;!&ndash; E 相关文章 &ndash;&gt;-->
+<!--                        </div>-->
+<!--                    </div>-->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="panel panel-default" id="comments">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{:__('Comment list')}
+                        <small>共有 <span>{cms:archives name="comments" /}</span> 条评论</small>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    {include file="common/comment" type="archives" aid="__ARCHIVES__.id"}
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+</div>
+<script data-render="script">
+        var galleryThumbs = new Swiper('.gallery-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 5,
+            freeMode: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+        });
+        var galleryTop = new Swiper('.gallery-top', {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            thumbs: {
+                swiper: galleryThumbs
+            }
+        });
+</script>

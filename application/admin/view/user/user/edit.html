@@ -1,0 +1,249 @@
+
+<div class="container">
+<form action="" class="form-horizontal" data-toggle="validator" id="edit-form" method="POST" role="form">
+
+    <div class="panel panel-default">
+      <div class="panel-heading"> 基本信息</div>
+  <div class="panel-body">
+    <div class="row">
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4">{:__('School_id')}:</label>
+        <div class="col-xs-8 col-sm-4">
+            <input class="form-control selectpage" data-rule="required" disabled  data-source="wis.School/select"  id="c-school_id" data-field="college_name" name="row[school_id]" type="text" value="{$row.school_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4" for="c-group_id">{:__('Group_id')}:</label>
+        <div class="col-xs-12 col-sm-4">
+            <input class="form-control selectpage"  data-field="name"  data-source="user.Group/selectToAll" disabled  id="c-group_id" name="row[group_id]" type="text" value="{$row.group_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4" for="c-username">{:__('Username')}:</label>
+        <div class="col-xs-12 col-sm-6">
+            <input class="form-control" data-rule="required" disabled id="c-username" name="row[username]" type="text" value="{$row.username|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4" for="c-nickname">{:__('Nickname')}:</label>
+        <div class="col-xs-12 col-sm-6">
+            <input class="form-control" data-rule="required" id="c-nickname" name="row[nickname]" type="text" value="{$row.nickname|htmlentities}">
+        </div>
+    </div>
+
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4" for="c-email">{:__('Email')}:</label>
+        <div class="col-xs-12 col-sm-6">
+            <input class="form-control" data-rule="" id="c-email" name="row[email]" type="text" value="{$row.email|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4" for="c-mobile">{:__('Mobile')}:</label>
+        <div class="col-xs-12 col-sm-6">
+            <input class="form-control" data-rule="" id="c-mobile" name="row[mobile]" type="text" value="{$row.mobile|htmlentities}">
+        </div>
+    </div>
+
+        <div class="form-group col-sm-6">
+            <label class="control-label col-xs-12 col-sm-4">{:__('Nation')}:</label>
+            <div class="col-xs-12 col-sm-6">
+                <input class="form-control" id="c-nation" name="row[nation]" type="text" value="{$row.nation|htmlentities}">
+            </div>
+        </div>
+
+    <div class="form-group col-sm-6">
+        <label class="control-label col-xs-12 col-sm-4">{:__('Birthday')}:</label>
+        <div class="col-xs-12 col-sm-6">
+            <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-birthday" name="row[birthday]" type="text" value="{$row.birthday}">
+        </div>
+    </div>
+</div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2" for="c-gender">{:__('Gender')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                {:build_radios('row[gender]', ['1'=>__('男'), '0'=>__('女')], $row['gender'])}
+            </div>
+        </div>
+  </div>
+
+</div>
+
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading bg-danger">
+        <h3 class="panel-title ">党建资料</h3>
+      </div>
+  <div class="panel-body">
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('User_type')}:</label>
+            <div class="col-xs-12 col-sm-8">
+
+                <select  id="c-user_type" data-rule="required" class="form-control selectpicker" name="row[user_type]">
+                    {foreach name="userTypeList" item="vo"}
+                    <option value="{$key}" {in name="key" value="$row.user_type"}selected{/in}>{$vo}</option>
+                    {/foreach}
+                </select>
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Id_card')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control" id="c-id_card" name="row[id_card]" type="text" value="{$row.id_card|htmlentities}">
+            </div>
+        </div>
+
+        <div class="form-group ">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Birth_place')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control" id="c-birth_place" name="row[birth_place]" type="text" value="{$row.birth_place|htmlentities}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Part_duty')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control" id="c-part_duty" name="row[part_duty]" type="text" value="{$row.part_duty|htmlentities}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Apply_time')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-apply_time" name="row[apply_time]" type="text" value="{$row.apply_time}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Active_time')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-active_time" name="row[active_time]" type="text" value="{$row.active_time}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Develop_time')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-develop_time" name="row[develop_time]" type="text" value="{$row.develop_time}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Official_time')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-join_time" name="row[official_time]" type="text" value="{$row.official_time}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-xs-12 col-sm-2">{:__('Preparatory_time')}:</label>
+            <div class="col-xs-12 col-sm-8">
+                <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" id="c-preparatory_time" name="row[preparatory_time]" type="text" value="{$row.preparatory_time}">
+            </div>
+        </div>
+
+
+  </div>
+</div>
+
+
+    <div class="panel panel-default">
+         <div class="panel-heading"> 基础记录</div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-bio">{:__('Bio')}:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <input class="form-control" data-rule="" id="c-bio" name="row[bio]" type="text" value="{$row.bio|htmlentities}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-avatar">{:__('Avatar')}:</label>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="input-group">
+                        <input class="form-control" data-rule="" id="c-avatar" name="row[avatar]" size="50" type="text" value="{$row.avatar}">
+                        <div class="input-group-addon no-border no-padding">
+                            <span><button class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar" id="plupload-avatar" type="button"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+
+                        </div>
+                        <span class="msg-box n-right" for="c-avatar"></span>
+                    </div>
+                    <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-password">{:__('Password')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input autocomplete="new-password" class="form-control" data-rule="password" id="c-password" name="row[password]" placeholder="{:__('Leave password blank if dont want to change')}" type="text" value="" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-score">{:__('Score')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-score" name="row[score]" type="number" value="{$row.score}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-successions">{:__('Successions')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-successions" name="row[successions]" type="number" value="{$row.successions}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-maxsuccessions">{:__('Maxsuccessions')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-maxsuccessions" name="row[maxsuccessions]" type="number" value="{$row.maxsuccessions}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-prevtime">{:__('Prevtime')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-rule="required" data-use-current="true" id="c-prevtime" name="row[prevtime]" type="text" value="{$row.prevtime|datetime}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-logintime">{:__('Logintime')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-rule="required" data-use-current="true" id="c-logintime" name="row[logintime]" type="text" value="{$row.logintime|datetime}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-loginip">{:__('Loginip')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-loginip" name="row[loginip]" type="text" value="{$row.loginip}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-loginfailure">{:__('Loginfailure')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-loginfailure" name="row[loginfailure]" type="number" value="{$row.loginfailure}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-joinip">{:__('Joinip')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control" data-rule="required" id="c-joinip" name="row[joinip]" type="text" value="{$row.joinip}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="c-jointime">{:__('Jointime')}:</label>
+                <div class="col-xs-12 col-sm-4">
+                    <input class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-rule="required" data-use-current="true" id="c-jointime" name="row[jointime]" type="text" value="{$row.jointime|datetime}">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-12 col-sm-2" for="content">{:__('Status')}:</label>
+                <div class="col-xs-12 col-sm-8">
+                    {:build_radios('row[status]', ['normal'=>__('Normal'), 'hidden'=>__('Hidden')], $row['status'])}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button class="btn btn-success btn-embossed disabled" type="submit">{:__('OK')}</button>
+            <button class="btn btn-default btn-embossed" type="reset">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
+</div>
